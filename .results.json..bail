@@ -1,0 +1,98 @@
+{
+  "stats": {
+    "suites": 5,
+    "tests": 4,
+    "passes": 0,
+    "pending": 0,
+    "failures": 4,
+    "start": "2024-03-19T09:53:20.761Z",
+    "end": "2024-03-19T09:53:21.159Z",
+    "duration": 398
+  },
+  "tests": [
+    {
+      "title": "is an equation whose multiplied results will equal 62",
+      "fullTitle": "index.js multiply is an equation whose multiplied results will equal 62",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: num1 is not defined\n    at Context.<anonymous> (test/indexTest.js:9:14)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "num1 is not defined"
+      }
+    },
+    {
+      "title": "generates a random integer greater than 0",
+      "fullTitle": "index.js random generates a random integer greater than 0",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: random is not defined\n    at Context.<anonymous> (test/indexTest.js:16:31)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "random is not defined"
+      }
+    },
+    {
+      "title": "is an equation that calculates a remainder that is equal to 4",
+      "fullTitle": "index.js mod is an equation that calculates a remainder that is equal to 4",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: num3 is not defined\n    at Context.<anonymous> (test/indexTest.js:22:14)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "num3 is not defined"
+      }
+    },
+    {
+      "title": "will return 20 as the highest number in the set",
+      "fullTitle": "index.js max will return 20 as the highest number in the set",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: max is not defined\n    at Context.<anonymous> (test/indexTest.js:29:14)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "max is not defined"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "is an equation whose multiplied results will equal 62",
+      "fullTitle": "index.js multiply is an equation whose multiplied results will equal 62",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: num1 is not defined\n    at Context.<anonymous> (test/indexTest.js:9:14)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "num1 is not defined"
+      }
+    },
+    {
+      "title": "generates a random integer greater than 0",
+      "fullTitle": "index.js random generates a random integer greater than 0",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: random is not defined\n    at Context.<anonymous> (test/indexTest.js:16:31)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "random is not defined"
+      }
+    },
+    {
+      "title": "is an equation that calculates a remainder that is equal to 4",
+      "fullTitle": "index.js mod is an equation that calculates a remainder that is equal to 4",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: num3 is not defined\n    at Context.<anonymous> (test/indexTest.js:22:14)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "num3 is not defined"
+      }
+    },
+    {
+      "title": "will return 20 as the highest number in the set",
+      "fullTitle": "index.js max will return 20 as the highest number in the set",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: max is not defined\n    at Context.<anonymous> (test/indexTest.js:29:14)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "max is not defined"
+      }
+    }
+  ],
+  "passes": []
+}
